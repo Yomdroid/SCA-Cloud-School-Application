@@ -99,5 +99,7 @@ def run_script():
         mac_installations()
     elif system == "Win32" or system == "Win64" or system =="Cygwin" or system =="Windows":
         window_installations()
-
+    else:
+        print("System is not supported yet")
+        
 run_script()
