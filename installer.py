@@ -97,7 +97,7 @@ def run_script():
         linux_installations()
     elif system == "Darwin":
         mac_installations()
-    elif system == "Win32" or "Win64" or "Cygwin":
+    elif system == "Win32" or system == "Win64" or system =="Cygwin":
         window_installations()
 
 run_script()
